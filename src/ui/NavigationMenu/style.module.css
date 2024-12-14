@@ -1,0 +1,37 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background-color: white;
+    width: max-content;
+    border-radius: 6px;
+}
+
+.wrap[data-orientation="vertical"] {
+    flex-direction: column;
+}
+
+.trigger {
+    appearance: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    outline: none;
+    padding: 16px;
+    background-color: white;
+    color: #0284c7;
+    font-size: 16px;
+    gap: 8px;
+    line-height: 0;
+    transition: 250ms background-color;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.trigger[data-highlighted="true"] {
+    background-color: #0284c710;
+}
