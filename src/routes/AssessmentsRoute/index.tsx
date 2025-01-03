@@ -8,13 +8,13 @@ const AssessmentsRoute: Component<RouteSectionProps> = (props) => {
         <section>
             <h1>Assessments</h1>
             <NavigationMenu class={s.nav}>
-                <NavigationMenuTrigger as={A} href="/units" activeClass={s['active-nav']}>
+                <NavigationMenuTrigger as={A} href="units" activeClass={s['active-nav']}>
                     Units
                 </NavigationMenuTrigger>
-                <NavigationMenuTrigger as={A} href="/applications" activeClass={s['active-nav']}>
+                <NavigationMenuTrigger as={A} href="applications" activeClass={s['active-nav']}>
                     Applications
                 </NavigationMenuTrigger>
-                <NavigationMenuTrigger as={A} href="/vendors" activeClass={s['active-nav']}>
+                <NavigationMenuTrigger as={A} href="vendors" activeClass={s['active-nav']}>
                     Vendors
                 </NavigationMenuTrigger>
             </NavigationMenu>

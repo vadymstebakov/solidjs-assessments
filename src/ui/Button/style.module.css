@@ -1,0 +1,34 @@
+.btn {
+    appearance: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: auto;
+    outline: none;
+    border-radius: 6px;
+    padding: 0 16px;
+    background-color: hsl(200deg 98% 39%);
+    color: white;
+    font-size: 16px;
+    line-height: 0;
+    transition: 250ms background-color;
+}
+
+.btn:hover {
+    background-color: hsl(201deg 96% 32%);
+}
+
+.btn:focus-visible {
+    outline: 2px solid hsl(200deg 98% 39%);
+    outline-offset: 2px;
+}
+
+.btn:active {
+    background-color: hsl(201deg 90% 27%);
+}
+
+.btn:disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+}

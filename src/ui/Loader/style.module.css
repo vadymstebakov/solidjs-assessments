@@ -1,0 +1,17 @@
+@keyframes blink {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.wrap {
+    margin: auto;
+    display: flex;
+    width: max-content;
+    color: tomato;
+    animation: blink 1000ms linear infinite;
+}
